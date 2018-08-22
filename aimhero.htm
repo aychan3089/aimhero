@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AIMHERO</title>
+		<link rel="stylesheet" type="text/css" href="styling.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>	
+
+	<body>
+		<div id="container"></div>
+		<div id="text-container">
+			<p id="hit">Targets hit: 0</p>
+			<p id="miss">Targets missed: 0</p>
+		</div>
+		<button id="target" onclick="hit_target()">
+		</button>
+		
+		<div class="divTable">
+			<div class="divTableBody">
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+	
+</html>
